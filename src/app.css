@@ -1,0 +1,53 @@
+.main_search{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.main_search input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 30px;
+    border:solid 1px lightgray;
+    color:#000000;
+    font-size:20px;
+    padding:10px;
+    font-weight: 400;
+}
+
+.main_search input:focus{
+    outline: none;
+}
+
+.car_item{
+    display: flex;
+    border: 1px solid lightgray;
+}
+
+.car_item .left{
+    width:120px;
+}
+
+.car_item .left img{
+    width:100%;
+}
+
+.car_item .right{
+    flex-grow:1;
+    padding:15px;
+}
+
+
+/**** Car detail Page ***/
+
+.car_detail img{
+    width :100%;
+}
+
+.car_detail h2, .car_detail h3 {
+    margin:0;
+    text-align: center;
+}
+
+.car_detail .content{
+    padding:15px;
+}
